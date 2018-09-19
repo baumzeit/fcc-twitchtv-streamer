@@ -2,7 +2,10 @@ html,
 body {
   margin: 0;
   background-color: #222;
-  overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .content {
